@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string NameScene;
+    public void LoadLevel(string Game)
 
-    // Update is called once per frame
-    void Update()
-    {
-        void LoadLevel(string name);
-        Debug.Log("Wczytano poziom" + name);
+        {
+        LevelManager.LoadLevel(NameScene);
+        Debug.Log("Wczytano poziom" + Game);
+        }
     }
-}
