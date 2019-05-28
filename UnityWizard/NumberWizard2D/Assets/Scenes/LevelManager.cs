@@ -5,10 +5,10 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     public string NameScene;
-    public void LoadLevel(string Game)
+    public void LoadLevel(string name)
 
         {
         LevelManager.LoadLevel(NameScene);
-        Debug.Log("Wczytano poziom" + Game);
+        Debug.Log("Wczytano poziom" + name);
         }
     }
